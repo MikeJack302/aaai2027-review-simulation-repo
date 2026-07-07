@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "title": "string or null",
+    "input_paths": ["string"],
+    "mode": "fast | full | rebuttal | revision | camera-ready"
+  },
+  "simulation": {
+    "disclaimer": "Simulated peer review; not an official AAAI review or acceptance prediction.",
+    "reviewers": [
+      {
+        "id": "r1_novelty",
+        "role": "string",
+        "synthetic_score_1_to_10": 5,
+        "confidence_1_to_5": 3,
+        "verdict_inclination": "borderline",
+        "artifact": "review_r1_novelty.md"
+      }
+    ],
+    "consensus_decision_driver_ids": ["D1", "D2", "D3"]
+  },
+  "artifacts": {
+    "preflight": "00_preflight.md",
+    "evidence_map": "01_evidence_map.md",
+    "meta_review": "meta_review.md",
+    "concerns_matrix": "concerns_matrix.csv",
+    "revision_plan": "revision_plan.md"
+  }
+}

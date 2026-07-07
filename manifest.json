@@ -1,0 +1,16 @@
+{
+  "name": "aaai2027-review-simulation-repo",
+  "version": "1.0.0",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "SKILL.md",
+    "examples/example_request.md",
+    "prompts/evidence_map.md",
+    "prompts/meta_review.md",
+    "prompts/reviewer_review.md",
+    "references/domain_checks.md",
+    "references/results_schema.json",
+    "scripts/preflight.py"
+  ]
+}
